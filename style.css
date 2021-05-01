@@ -1,0 +1,70 @@
+h1{
+    color:'#008dbc';
+}
+.header{
+    background-color: '#95d7ed';
+    display:flex;
+    justify-content:center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#fc88b2;
+    padding: 15 px;
+    font-size: 20 px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: #990438;
+}
+body{
+    margin: 0px;
+    background-color: #ffbad2;
+}
+
+.Grid{
+    border: 5px dashed #a504a5;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.Item{
+    border-radius: 20px;
+    background-color: #ea93ea;
+    padding: 40px;
+    margin: 20px;
+    width: 310px;
+    font-family: MS Gothic;
+}
+
+.Pigeon:hover p{
+    opacity: 1;
+}
+
+.Pigeon:hover img{
+    opacity:0.33;
+}
+
+.Panda:hover p{
+    opacity: 1;
+}
+
+.Panda:hover img{
+    opacity:0.33;
+}
+
+.Chameleon:hover p{
+    opacity: 1;
+}
+
+.Chameleon:hover img{
+    opacity:0.33;
+}
+
+a:link{
+    color:darkgreen;
+}
+
+a:visited{
+    color:lightcoral;
+}
